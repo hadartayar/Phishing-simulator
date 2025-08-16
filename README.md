@@ -2,7 +2,7 @@
 
 A demo-only CRUD app to create phishing **templates**, manage **recipients**, and build/launch **campaigns** with basic open/click/report tracking.
 
-> ⚠️ For learning purposes only. Do not use to send real emails.
+> ⚠️ For learning purposes only. Not sending real emails.
 
 ## Project Structure
 
