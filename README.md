@@ -4,40 +4,6 @@ A demo-only CRUD app to create phishing **templates**, manage **recipients**, an
 
 > ⚠️ For learning purposes only. Not sending real emails.
 
-## Project Structure
-
-```
-phishing-simulator/
-├── client/                # React (Vite)
-│   ├── package.json
-│   ├── index.html
-│   ├── vite.config.js
-│   └── src/
-│       ├── main.jsx
-│       ├── App.jsx
-│       ├── api.js
-│       ├── components/
-│       │   └── Table.jsx
-│       └── pages/
-│           ├── Dashboard.jsx
-│           ├── Campaigns.jsx
-│           ├── Templates.jsx
-│           └── Recipients.jsx
-└── server/                # Node.js (Express + SQLite)
-    ├── package.json
-    ├── .env.example
-    └── src/
-        ├── index.js
-        ├── db.js
-        ├── utils/
-        │   └── validators.js
-        └── routes/
-            ├── campaigns.js
-            ├── recipients.js
-            ├── templates.js
-            └── events.js
-```
-
 ## Quick Start
 
 ### 1) Server
